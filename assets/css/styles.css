@@ -205,7 +205,9 @@ img {
   left: 0;
 }
 /* Shadow header */
-
+.shadow-header {
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, 0.15);
+}
 /* Active link */
 
 /*=============== HOME ===============*/
@@ -297,8 +299,17 @@ img {
 }
 
 .home__tomato-1 {
+  top: -1.5rem;
+  right: 2.5rem;
+}
+
+.home__tomato-2 {
   left: 3.5rem;
   bottom: -1.5rem;
+}
+
+.home__leaf {
+  left: -0.75rem;
 }
 
 /*=============== BUTTON ===============*/
