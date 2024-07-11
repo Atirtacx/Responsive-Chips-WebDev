@@ -425,6 +425,25 @@ img {
   column-gap: 0.75rem;
   align-items: center;
 }
+.care {
+  background-color: var(--first-color-dark);
+}
+
+.care__container {
+  row-gap: 3rem;
+  padding-block: 1rem 2rem;
+}
+
+.care__list {
+  display: grid;
+  row-gap: 1.25rem;
+}
+
+.care__item {
+  display: flex;
+  column-gap: 0.75rem;
+  align-items: center;
+}
 
 /*=============== BANNER ===============*/
 .banner {
@@ -515,6 +534,10 @@ img {
   box-shadow: inset var(--shadow-button);
   display: inline-flex;
   cursor: pointer;
+}
+
+.products__card:hover .products__img {
+  transform: translateY(-0.5rem);
 }
 
 .products__card:hover .products__img {
